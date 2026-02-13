@@ -1,1 +1,1 @@
-KalkulatorSederhana-HTML-CSS-JS REVO-U FUNDAMENTAL WEB SE 2024
+KalkulatorSederhana-HTML-CSS-JS
