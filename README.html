@@ -1,20 +1,15 @@
 <!DOCTYPE html>
-<html lang="id">
-<head>
-    <title>Landing Page Sederhana</title>
-</head>
+<html>
 <body>
-    <header>
-        <h1>Selamat Datang di Website Saya</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Beranda</a></li>
-                <li><a href="#">Tentang</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <p>Ini adalah contoh struktur dasar landing page.</p>
-    </main>
+    <h2>Hubungi Kami</h2>
+    <form action="/submit" method="post">
+        <label>Nama:</label><br>
+        <input type="text" name="nama"><br>
+        <label>Email:</label><br>
+        <input type="email" name="email"><br>
+        <label>Pesan:</label><br>
+        <textarea name="pesan"></textarea><br>
+        <input type="submit" value="Kirim">
+    </form>
 </body>
 </html>
